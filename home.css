@@ -220,6 +220,32 @@
 width: 100vmax
 }
 
+#main__servicios .card-img{
+height: 500px;
+
+}
+
+#main__servicios h2{
+    position: relative;
+    top: 150px;
+    left: 50px;
+    font-size: xx-large;
+    
+    }
+
+#main__servicios p{
+    position: relative;
+    top: 150px;
+    left: 50px;
+    }
+#main__servicios button{
+    position: relative;
+    top: 150px;
+    left: 50px;
+    color: #eeeeee;
+  
+    }    
+
 #main__servicios .main__text {
     display: flex;
     align-items: center;

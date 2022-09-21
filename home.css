@@ -92,6 +92,29 @@
 
 /*main contacto*/
 
+#main-contacto {
+    background-color: #ffbf00;
+}
+
+#main-contacto .main__text {
+    color: #eeeeee;
+    padding-left: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 60%;  
+    height: 500px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./Imagenesgrua/glaciar-recortada.jpg');                                                                            
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;   
+}
+
+#main__contacto .main__texto {
+    
+}
+
 #main__contacto .sect {
     background-color: black;
     width: 100%;
@@ -111,14 +134,21 @@
 
 
   .page-section{
-    background-color: #ffbf00; 
+    background-color: #ffdb6d; 
     display: grid;
     gap: 10px;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 2fr;
     grid-template-rows: 50%;
   }
 
 
+  .accordion:nth-child(2) {
+    display: grid;
+    background-color: #3700ff; 
+    grid-template-columns: 1fr 1fr;
+  
+ 
+  }
   #asidetext {
     background-color: #ffc700; 
     color: white;

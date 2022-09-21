@@ -120,6 +120,15 @@
     
   }
 
+  .page-section {
+    background-color: #1f59b7;
+  }
+
+  #contact {
+    background-color: #ffbf00;
+   
+  }
+
 
   #contacto .contacto__boxmodel {
     background-color: #ffc700;
@@ -220,6 +229,34 @@
 width: 100vmax
 }
 
+#main__servicios .card-img{
+height: 500px;
+
+}
+
+#main__servicios h2{
+    position: relative;
+    top: 150px;
+    left: 50px;
+    font-size: 3rem;
+    
+    }
+
+#main__servicios p{
+    position: relative;
+    top: 150px;
+    left: 50px;
+    font-size: 2rem;
+    }
+#main__servicios button{
+    position: relative;
+    top: 150px;
+    left: 50px;
+    color: #eeeeee;
+    font-size: 2rem;
+    }  
+       
+
 #main__servicios .main__text {
     display: flex;
     align-items: center;
@@ -262,7 +299,9 @@ width: 100vmax
 
 /*Section home*/
 
-
+#carousel {
+    width: fluid;
+}
 
 #section-index .section__boxmodel img {
     background-color: gray;
@@ -273,23 +312,25 @@ width: 100vmax
 
 #section-index h5 {
     background-color: #ffc700;
-    width: 1300px;
+    width: max-content;
+    height: 5px;
     color: transparent;
     position: relative;
     left: 90px;
-    top: 50px;
-    z-index: 1;
+    top: 0px;
+    z-index: 5;
 
 }
 
 #section-index .dos {
-    background-color: #ffc700;
-    width: 1300px;
+    background-color: #010101;
+    width: max-content;
+    height: 5px;
     color: transparent;
     position: relative;
-    left: 90px;
-    top: 200px;
-    z-index: 1;
+    left: 60px;
+    top: -180px;
+    z-index: 5;
 
 }
 

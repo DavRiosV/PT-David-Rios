@@ -98,17 +98,36 @@
 
 #main-contacto .main__text {
     color: #eeeeee;
-    padding-left: 3rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    width: 60%;  
     height: 500px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./Imagenesgrua/glaciar-recortada.jpg');                                                                            
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;   
+}
+
+.col-md-6 {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  background-position: center center;
+}
+
+.col-md-6 h2 {
+    padding-top: 3rem;
+    font-size: xx-large;
+}
+
+.col-md-6 h4 {
+    padding-top: 1fr;
+    font-size: x-large;
+}
+
+.col-md-6 p {
+    padding-top: 1fr;
 }
 
 /*formulario*/

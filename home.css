@@ -111,9 +111,37 @@
     background-size: cover;   
 }
 
-#main__contacto .main__texto {
+.col-sm-12 {
+    background-color: #eeeeee;
+    color: black;
+    padding-bottom: 3rem;
+    padding-top: 2rem;
+  }
+
+  .col-sm-12 .box1 {
+   padding-bottom: 1rem;
+  }
+
+  .col-sm-12 .input {
+    padding-left: 2rem;
     
+  }
+
+  .col-sm-6 {
+    display: grid;
+    gap: 1rem;
+    align-content: space-around;
+    align-items: flex-end;
+  }
+
+.d-grid {
+    border: solid black;
 }
+
+.d-grid:hover {
+    background-color: #ffbf00;
+    transition: all 1s;
+}  
 
 #main__contacto .sect {
     background-color: black;
@@ -132,23 +160,6 @@
     padding: 1rem 1rem 1rem 1rem;
   }
 
-
-  .page-section{
-    background-color: #ffdb6d; 
-    display: grid;
-    gap: 10px;
-    grid-template-columns: 2fr 2fr;
-    grid-template-rows: 50%;
-  }
-
-
-  .accordion:nth-child(2) {
-    display: grid;
-    background-color: #3700ff; 
-    grid-template-columns: 1fr 1fr;
-  
- 
-  }
   #asidetext {
     background-color: #ffc700; 
     color: white;

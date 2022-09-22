@@ -5,7 +5,13 @@
     font-family: sans-serif;
 }
 
-/*Globales*/                                                                                            
+/*Globales*/   
+
+.navbar li:hover {
+    background-color: #e8bb34;
+    transition: all 0.5s;
+}
+
 #header {
     background-color: transparent;
     display: flex;
@@ -95,6 +101,7 @@
 
 #main-contacto .main__text {
     color: #eeeeee;
+    padding: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -104,6 +111,13 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;   
+}
+
+#main-contacto .main__text input:hover {
+    background-color: #ffbf00;
+    color: #eeeeee;
+    transform: scale(0.9);
+    transition: all 1s;
 }
 
 .col-md-6 {

@@ -111,18 +111,20 @@
     background-size: cover;   
 }
 
-.col-sm-12 {
+/*formulario*/
+
+.col-lg-12 {
     background-color: #eeeeee;
     color: black;
     padding-bottom: 3rem;
     padding-top: 2rem;
   }
 
-  .col-sm-12 .box1 {
-   padding-bottom: 1rem;
+  .col-lg-12 .box1 {
+   padding-bottom: 2rem;
   }
 
-  .col-sm-12 .input {
+  .col-lg-12 .input {
     padding-left: 2rem;
     
   }
@@ -142,6 +144,7 @@
     background-color: #ffbf00;
     transition: all 1s;
 }  
+
 
 #main__contacto .sect {
     background-color: black;

@@ -209,20 +209,80 @@
 
 /*main maquinaria*/
 
+#maquina{
+    background-color: #e8bb34;
+}
+
+#maquina .card {
+    background-color: transparent;
+}
+
+#main__maquinaria {
+    
+}
+
+#main__maquinaria .main__text {
+    color: #eeeeee;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 500px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./Imagenesgrua/10.jpg');                                                                            
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;   
+}
+
+#main__maquinaria .main__text input:hover {
+    background-color: #ffbf00;
+    color: #eeeeee;
+    transform: scale(0.9);
+    transition: all 1s;
+}
+
+.col-md-8 {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  background-position: center center;
+}
+
+.col-md-8 h2 {
+    padding-top: 3rem;
+    font-size: xx-large;
+}
+
+.col-md-8 h4 {
+    padding-top: 1fr;
+    font-size: x-large;
+}
+
+.col-md-8 p {
+    padding-top: 1fr;
+}
+
 .flex-conteiner {
     background-color: #ffc700; 
-    height: 100vh;
-    padding: 10px;
+    padding: 12rem;
     display: flex;
-    gap: 20px;
-    flex-flow: row wrap;
+    gap: 3rem;
+    flex-flow: row;
     justify-content: flex-start;
     align-items: flex-start;
     align-content: center;
 }
 
 .flex-item {
-    background-color: rgba(82, 81, 78, 0.411);
+    background-color: rgba(219, 175, 43, 0.411);
+    color: black;
+    width: 300px;
+ 
+}
+
+.flex-item:hover {
+    background-color: rgba(219, 175, 43, 0.411);
     color: black;
     width: 300px;
  
@@ -236,6 +296,12 @@
 .flex-item img {    
     width: 100%;
     height: auto;  
+}
+
+.flex-conteiner .lista {
+    display: flex;
+    align-items: center center;
+    position: sticky;
 }
 
 /*main servicios*/

@@ -90,13 +90,12 @@
     color: rgb(255, 255, 255);
     padding: 5px;
     font-style: inherit;
-    
 }
 
 /*main contacto*/
 
 #main-contacto {
-    background: linear-gradient(15deg, #fac116 70%, #f5db2f 20%);
+    background: linear-gradient(25deg, #fac116 70%, #f5db2f 20%);
 }
 
 #main-contacto .main__text {
@@ -125,6 +124,7 @@
   flex-direction: column;
   align-content: space-between;
   background-position: center center;
+  border:  1px solid red;
 }
 
 .col-md-6 h2 {
@@ -217,9 +217,6 @@
     background-color: transparent;
 }
 
-#main__maquinaria {
-    
-}
 
 #main__maquinaria .main__text {
     color: #eeeeee;
@@ -319,11 +316,7 @@ height: 500px;
     position: relative;
     top: 150px;
     left: 50px;
-<<<<<<< HEAD
-    font-size: xx-large;
-=======
     font-size: 3rem;
->>>>>>> mi-rama
     
     }
 
@@ -331,24 +324,16 @@ height: 500px;
     position: relative;
     top: 150px;
     left: 50px;
-<<<<<<< HEAD
-=======
     font-size: 2rem;
->>>>>>> mi-rama
     }
 #main__servicios button{
     position: relative;
     top: 150px;
     left: 50px;
     color: #eeeeee;
-<<<<<<< HEAD
-  
-    }    
-=======
     font-size: 2rem;
     }  
        
->>>>>>> mi-rama
 
 #main__servicios .main__text {
     display: flex;
@@ -501,7 +486,7 @@ height: 500px;
 
 .container-footer {
     display: grid;
-    grid-template-columns: 1/3;
+    grid-template-columns: max-content;
     padding-left: 5rem;
 }
 

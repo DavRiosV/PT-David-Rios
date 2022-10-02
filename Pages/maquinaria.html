@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Maquinaria</title>
     <link rel="shortcut icon" href="../Imagenes grua/RYAlogo redimensionado.jpg" type="image/x-icon">
-    <link rel="stylesheet" href="../home.css">
-      <!-- CSS only -->
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="../SASS/main.css">
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/ab79506b94.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
@@ -22,6 +23,9 @@
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                  </li>
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="./empresa.html">Empresa</a>
                   </li>
@@ -43,20 +47,20 @@
 
     <main id="main__maquinaria">
 
-            <div class="container-fluid-max">
+       <div class="container-fluid-max">
     
-                <div class="row">
-                        <div class="col-md-8">
+         <div class="row">
+                    <div class="col-md-8">
     
-                            <div class="main__text">            
+                          <div class="main__text">            
                                 <H1>R&A Grúas, más de 28 años de experiencia</H1>
                                 <!-- Dejar un espacio   -->
                                 <h3>Servicio y experiencia a su disposición</h3>
                                 <input type="button" value="Ver servicios">
-                            </div>
-                        </div>
+                           </div>
+                    </div>
                         
-                        <div class="col-md-4">
+                    <div class="col-md-4">
                             <img src="" alt="">
     
                             <strong><h2>Información de contacto</h2></strong>
@@ -70,9 +74,9 @@
                             <H4>Contacto</H4>
                             <p>+56 (2) 25533705</p>
                             <p>+56 (9) 95342620</p>
-                        </div>    
-                    </div>  
-             </div>   
+                     </div>    
+         </div>  
+       </div>   
 
     </main>
 
@@ -90,7 +94,7 @@
                         Máxima altura horquillas: 3.300 mm
                         Peso: 4212 kg</p>
                     </div>
-                </div>
+              </div>
                 
                 <div class="card" style="width: 18rem;">
                     <img src="../Imagenesgrua/5ton.jpg" class="card-img-top" alt="5ton">
@@ -118,32 +122,41 @@
                             </div>
                         </div>
                         
-                    </div>
+          </div>
                         
                     </section>
                     
-                    <div class="container-footer">
-                        <footer class="py-5">
-                            <div class="row">
-                                <div class="col-6 col-md-2 mb-3">
-                                    <a href="../index.html"><img src="../Imagenesgrua/Logo_PNG.png" alt="logo"></a>
-                                    <ul class="nav flex-column">
-                                        <li class="nav-item mb-2"><a href="./empresa.html" class="nav-link p-0 text-muted">Empresa</a></li>
-                                        <li class="nav-item mb-2"><a href="./maquinaria.html" class="nav-link p-0 text-muted">Maquinaria</a></li>
-                                        <li class="nav-item mb-2"><a href="./servicios.html" class="nav-link p-0 text-muted">Servicios</a></li>
-                                        <li class="nav-item mb-2"><a href="./contacto.html" class="nav-link p-0 text-muted">Contacto</a></li>
-                                    </ul>
-                                </div>
-                                
-  
-        <div class="col-7 col-md-4 mb-6">
-          <h5>Contactanos</h5>
-          <ul class="nav flex-column">
-            <li class="nav-item mb-2"><p>+56 (2) 25533705</p></li>
-            <li class="nav-item mb-2"><p>+56 (9) 95342620 </p></li>
-          </ul>
-          <p>&copy; R&A Grúas Ltda 2022. Todos los derechos reservados.</p>
-        </div>
+                    <footer class="pie-pagina">
+                      <div class="grupo-1">
+                          <div class="box">
+                              <figure>
+                                  <a href="#">
+                                      <img src="../Imagenesgrua/Logo_PNG.png" alt="Logo-RYA">
+                                  </a>
+                              </figure>
+                          </div>
+                          <div class="box">
+                              <h2>CONTÁCTANOS</h2>
+                                  <p>+56 (2) 25533705</p>
+                                  <p>+56 (9) 95342620 </p>
+                          </div>
+                          <div class="box">
+                              <h2>SIGUENOS</h2>
+                              <div class="red-social">
+                                  <a href="#" class="fa fa-facebook"></a>
+                                  <a href="#" class="fa fa-instagram"></a>
+                                  <a href="#" class="fa fa-twitter"></a>
+                                  <a href="#" class="fa fa-linkedin"></a>
+                              </div>
+                          </div>
+                      </div>
+                  
+                      <div class="grupo-2">
+                          <small>&copy; 2022 <b>R&A Grúas Ltda</b> - Todos los derechos reservados</small>
+                      </div>
+                  
+                  </footer>
+
   <!-- JavaScript Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>  
 </body>

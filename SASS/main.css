@@ -135,7 +135,7 @@
   justify-content: center;
   align-items: center;  
   height: 400px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./Imagenesgrua/main.jpeg');                                                                            
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../Imagenesgrua/main.jpeg');                                                                            
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;   
@@ -293,7 +293,7 @@ video {
   justify-content: center;
   align-items: flex-start;
   height: 500px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./Imagenesgrua/10.jpg');                                                                            
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Imagenesgrua/10.jpg");                                                                            
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;   

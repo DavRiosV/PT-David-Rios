@@ -10,6 +10,7 @@
      <!-- CSS only -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
   <script src="https://kit.fontawesome.com/ab79506b94.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="crossorigin="anonymous"/>
 </head>
 <body>
 
@@ -47,24 +48,46 @@
 
     <main id="main__servicios">
 
-        <div>
-
-            <img src="../Imagenesgrua/serviciosimg.png" alt="Imagenes">
-            
-        </div>   
-
-        <div class="main__text">
-            <P><strong>  Contamos con servicio de arriendo de grúa horquilla sin operador para poder integrar dentro de tu planta de trabajo.</strong></P>
+        <div class="slider-container">
+            <div class="left-slide">
+                <div style="background-color: #ffc700">
+                    <h1>Grúa sin operador</h1>
+                    <p>Contamos con servicio de arriendo de grúa horquilla sin operador para poder integrar dentro de tu planta de trabajo.</p>
+                </div>
+                <div style="background-color: #393E46">
+                    <h1>Grúa con operador</h1>
+                    <p>Contamos con servicio de arriendo de grúa horquilla con operador y combustible.</p>
+                </div>
+                <div style="background-color: #222831">
+                    <h1>Transporte de carga por carretera</h1>
+                    <p>Contamos con servicio de transporte de camión de cama baja de hasta 7 toneladas de carga.</p>
+                </div>
+                <div style="background-color: #2b2e32">
+                    <h1>¿Necesitas implementos adicionales?</h1>
+                    <p>Si tienes dudas sobre la realización de tu servicio o requieres implementos extras, no dudes en contáctarte para brindarte una orientación.</p>
+                </div>
+            </div>
+            <div class="right-slide">
+                <div style="background-image: url('../Imagenesgrua/9.jpeg');">
+                </div>
+                <div style="
+                    background-image: url('../Imagenesgrua/serviciotrans.png');">
+                    </div>
+                <div style="background-image: url('../Imagenesgrua/serviciosinop.png');">
+                </div>
+                <div style="background-image: url('../Imagenesgrua/servicioconop.png');">
+                </div>
+            </div>
+            <div class="action-buttons">
+                <button class="down-button">
+                    <i class="fas fa-arrow-down"></i>
+                </button>
+                <button class="up-button">
+                    <i class="fas fa-arrow-up"></i>
+                </button>
+            </div>
         </div>
-
-        <div class="main__text">
-            <P><strong>  Contamos con servicio de arriendo de grúa horquilla con operador y combustible.</strong></P>
-        </div>
-    
-        <div class="main__text">
-            <P><strong>  Contamos con servicio de transporte de camión de cama baja con resistencia de hasta 7 toneladas de carga.</strong></P>
-        </div>
-
+       
         <div id="section__serv">
 
             <div class="serv">
@@ -132,6 +155,7 @@
     
     </footer>
  <!-- JavaScript Bundle with Popper -->
+ <script src="script.js"></script>
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>      
 </body>
 </html>

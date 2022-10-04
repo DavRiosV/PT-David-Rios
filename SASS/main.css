@@ -261,16 +261,21 @@ video {
   padding: 1rem 1rem 1rem 1rem;
 }
 
-#asidetext {
-  background-color: #ffc700; 
+
+.asidetext {
+  background-color: #393E46; 
   color: white;
-  position: absolute;
+  font-family: sans-serif;
+  text-align: center;
+  line-height: 1.2;
+  height: 2.5rem;
+ 
 }
 
 #map__contacto iframe{
   background-color: #393E46; 
-  height: 100vh;
-  padding: 25px;
+
+
   display: flex;
   gap: 20px;
 }
@@ -492,14 +497,15 @@ background-position: center center;
   overflow:hidden;
   padding-bottom:56.25%;
   position:relative;
-  height:0;
+
 }
 
 #map__contacto iframe{
   left:0;
   top:0;
-  height:100%;
+
   width:100%;
+  display: flex;
   position:absolute;
 }
 

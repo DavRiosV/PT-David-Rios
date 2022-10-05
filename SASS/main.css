@@ -458,6 +458,12 @@ background-position: center center;
  width: 700px;
  align-content: center;
 } 
+
+.serv {
+  background-color: #ffc700;
+  
+  
+}
 /*ASIDE HOME*/
 
 .flex-conteiner-index {

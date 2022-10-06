@@ -282,14 +282,11 @@ video {
 
 /*main maquinaria*/
 
-#maquina{
-  background-color: #e8bb34;
+#main__maquinaria .col-md-8 {
+  background-color: #222831;
+  overflow: hidden;
+  padding: unset;
 }
-
-#maquina .card {
-  background-color: transparent;
-}
-
 
 #main__maquinaria .main__text {
   color: #eeeeee;
@@ -298,11 +295,12 @@ video {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  height: 500px;
+  height: 520px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Imagenesgrua/10.jpg");                                                                            
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: cover;   
+  background-size: cover;  
+  overflow: visible;
 }
 
 #main__maquinaria .main__text input:hover {
@@ -312,6 +310,13 @@ video {
   transition: all 500ms ease-out;
   border-radius: 6px;
 }
+
+#main__maquinaria .col-md-4 {
+  background-color: #ffbf00;
+  overflow: hidden;
+}
+
+/*imagenes maquinaria*/
 
 .container {
   width: 100%;

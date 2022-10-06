@@ -274,8 +274,6 @@ video {
 
 #map__contacto iframe{
   background-color: #393E46; 
-
-
   display: flex;
   gap: 20px;
 }
@@ -314,7 +312,47 @@ video {
 #main__maquinaria .col-md-4 {
   background-color: #ffbf00;
   overflow: hidden;
+  color: #eeeeee;
+  padding-top: 5rem;
 }
+
+.titulo {
+  background-color: #393E46;
+  width: inherit;
+  padding-top: 2rem;
+
+}
+
+.titulo .titulo-section {
+  color: #efefef;
+  padding-left: 40%;
+  padding-bottom: 1.5rem;
+}
+
+.img {
+  background: linear-gradient(to top, #393E46, #ffbf00);
+}
+
+.img .main__texto h1 {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  padding-top: 300px;
+  padding-left: 30%;
+}
+
+.img .main__texto p {
+  color: #010101;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  padding-top: 50px;
+  padding-left: 20%;
+}
+
 
 /*imagenes maquinaria*/
 

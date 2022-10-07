@@ -128,6 +128,7 @@
  
 }
 
+
 /*Home*/
 #main {
   background-color: #e8bb34;
@@ -173,11 +174,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  height: 500px;
+  width: 100%;
+  height: auto;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../Imagenesgrua/glaciar-recortada.jpg');                                                                            
   background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;   
+  background-position: center;
+  background-size: auto;   
 }
 
 #main-contacto .main__text input:hover {
@@ -187,25 +189,25 @@
   transition: all 1s;
 }
 
-.col-md-6 {
+.col-sm-6 {
 display: flex;
 flex-direction: column;
 align-content: space-between;
 background-position: center center;
-border:  1px solid red;
+
 }
 
-.col-md-6 h2 {
+.col-sm-6 h2 {
   padding-top: 3rem;
   font-size: xx-large;
 }
 
-.col-md-6 h4 {
+.col-sm-6 h4 {
   padding-top: 1fr;
   font-size: x-large;
 }
 
-.col-md-6 p {
+.col-sm-6 p {
   padding-top: 1fr;
 }
 
@@ -244,11 +246,6 @@ border:  1px solid red;
 }  
 
 
-#main__contacto .sect {
-  background-color: black;
-  width: 100%;
-  min-height: 60vh;
-}
 
 #sect1 {
   position: relative;
@@ -275,6 +272,7 @@ video {
 #map__contacto iframe{
   background-color: #393E46; 
   display: flex;
+  justify-content: center;
   gap: 20px;
 }
 
@@ -554,10 +552,10 @@ video {
 /*aside contacto*/
 
 #map__contacto {
+  height: 450px;
   overflow:hidden;
-  padding-bottom:56.25%;
   position:relative;
-
+  align-content: stretch;
 }
 
 #map__contacto iframe{

@@ -26,3 +26,13 @@ function changeSlide(direction) {
 
 upButton.addEventListener("click", () => changeSlide("up"));
 downButton.addEventListener("click", () => changeSlide("down"));
+
+window.onscroll = function (){
+    var posicion = window.pageYOffset || document.documentElement.scrollTop;
+    
+    var elemento1 = document.getElementById("icon_fork");
+    var elemento2 = document.getElementById("icon_fire");
+
+    elemento1.style.bottom = posicion * 0.1 + "px";
+    elemento2.style.top = posicion * 0.2 + "px";
+}

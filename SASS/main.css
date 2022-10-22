@@ -661,76 +661,82 @@ background-position: center center;
 }
 
 @media (max-width:620px){
+#gruas .container{
+  padding-top: 10px;
+  padding-bottom: 50px;
+  padding: 30px;
+  height: max-content;
+}
 
-  #gruas .container {
-    padding-top: 25px;
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #de0606;
-  } 
-  
-  #gruas .container figure {
-    position: relative;
-    height: 250px;
-    width: 350px;
-    overflow: hidden;
-    border-radius: 6px;
-    box-shadow: 0px 15px 25px rgba(0,0,0,0.50) ;
-    cursor: pointer;
-  }
-  
-  #gruas .container figure img {
-    width: 100%;
-    height: 100%;
-    transition: all 500ms ease-out;
-  }
-  
-  #gruas .container figure .capa {
-    position: relative;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(206, 194, 24, 0.7)  ;
-    transition: all 500ms ease-out;
-    opacity: 0;
-    visibility: hidden;
-    text-align: center;
-  }
-  
-  #gruas .container figure:hover > .capa {
-    opacity: 1;
-    visibility: visible;
-    background: rgba(206, 194, 24, 0.7)  ;
-    transition: all 500ms ease-out;
-  }
-  
-  #gruas .container figure:hover > .capa h3 {
-    margin-top: 10px;
-    margin-bottom: 5px;
-  }
-  
-  #gruas .container figure:hover > img {
-    transform: scale(1.2);
-  }
-  
-  #gruas .container figure .capa h3 {
-    color: #fff;
-    font-weight: 100px;
-    margin-bottom: 120px;
-    transition: all 500ms ease-out;
-    margin-top: 10px;
-  }
-  
-  #gruas .container figure .capa p {
-    color: #fff;
-    font-size: 5px;
-    line-height: 1.5;
-    width: 100%;
-    margin: auto;
-  }
+.contenedor-img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+
+}   
+
+.contenedor-img figure {
+  position: relative;
+  height: 550px;
+  width: 350px;
+  overflow: hidden;
+  border-radius: 6px;
+  box-shadow: 0px 15px 25px rgba (0,0,0,0.50) ;
+  cursor: pointer;
+}
+
+.contenedor-img figure img {
+  width: 100%;
+  height: 100%;
+  transition: all 500ms ease-out;
+}
+
+.contenedor-img figure .capa {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(206, 194, 24, 0.7)  ;
+  transition: all 500ms ease-out;
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+}
+
+.contenedor-img figure:hover > .capa {
+  opacity: 1;
+  visibility: visible;
+
+}
+
+.contenedor-img figure:hover > .capa h3 {
+  margin-top: 70px;
+  margin-bottom: 15px;
+}
+
+.contenedor-img figure:hover > img {
+  transform: scale(1.3);
+}
+
+.contenedor-img figure .capa h3 {
+  color: #fff;
+  font-weight: 400px;
+  margin-bottom: 120px;
+  transition: all 500ms ease-out;
+  margin-top: 20px;
+}
+
+.contenedor-img figure .capa p {
+  color: #fff;
+  font-size: 15px;
+  line-height: 1.5;
+  width: 100%;
+  max-width: 220px;
+  margin: auto;
+}
+
 
   .img .main__texto{
     background-image: radial-gradient(circle at -2.23% 40.79%, #fcf258 0, #fde543 16.67%, #fed62b 33.33%, #ffc700 50%, #ffb700 66.67%, #ffa700 83.33%, #ff9700 100%);

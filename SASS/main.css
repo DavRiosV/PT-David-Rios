@@ -576,7 +576,7 @@ background-position: center center;
 @media (max-width: 600px){
  #main__maquinaria .main__text{
   background-color: #d3a900;
-  color: #06de14;
+
   
  }
   }
@@ -593,6 +593,7 @@ background-position: center center;
   justify-content: space-between;
   align-items: center;
   overflow: hidden;
+  background-color: rgb(330, 330, 330);
   
 }   
 
@@ -742,6 +743,8 @@ background-position: center center;
     background-image: radial-gradient(circle at -2.23% 40.79%, #fcf258 0, #fde543 16.67%, #fed62b 33.33%, #ffc700 50%, #ffb700 66.67%, #ffa700 83.33%, #ff9700 100%);
     padding-top: 5px;
     padding-bottom: 5px;
+    font-size: bold;
+    color: white;
   }
 
   .img .main__texto h1 {
@@ -750,11 +753,12 @@ background-position: center center;
     align-items: center;
     align-content: center;
     align-self: flex-start;
-    padding-left: 30px;
+    padding-left: 40px;
   }
   
   .img .main__texto p {
-    color: #010101;
+    color: white;
+    font-size: medium;
     font-family: "roboto";
     display: flex;
     align-items: center;
@@ -922,6 +926,7 @@ background-position: center center;
   .container__header,
   .empresa {
       padding: 20px;
+
   }
 
   .text__information-cover h1 {
@@ -930,6 +935,7 @@ background-position: center center;
   .text__information-cover p{
       font-size: 16px;
   }
+
 
   .banner__text h2{
       font-size: 22px;
@@ -953,19 +959,35 @@ background-position: center center;
   }
 
   .banner{
-      height: auto;
-      flex-wrap: wrap;
+    display: flex;
+    height: auto;
+    align-items: flex-end;
+    flex-wrap: wrap;
   }
   #icon_fire{
-      display: none;
+      display: flex;
   }
   #icon_fork{
-      left: 0;
+      display: none;
   }
   .banner__text{
       width: 100%;
-      margin-top: -100px;
-  }                           
+      margin-top: 50px;
+  } 
+  
+  .btn__readmore-cover{
+    padding: 14px 40px;
+    border: none;
+    color: #000;
+    font-weight: 300;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: background 300ms;
+  }
+  .btn__readmore-cover:hover{
+    background: #e8e8e8;
+  }
 }
 
 /*Section home*/

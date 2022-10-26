@@ -9,7 +9,11 @@
     <link rel="stylesheet" href="./SASS/main.css">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <script src="https://kit.fontawesome.com/ab79506b94.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+ 
 
 </head>
 <body>
@@ -46,14 +50,14 @@
       </header>
 
     <main id="hero">
-      <h1>R&A Grúas, más de 28 años dentro del mercado<br></h1>
-      <h4>Servicio y experiencia a su disposición</h4>
+      <h1 class="animate__animated animate__backInLeft">R&A Grúas, más de 28 años dentro del mercado<br></h1>
+      <h4 class="animate__animated animate__backInLeft">Servicio y experiencia a su disposición</h4>
       <form action="./Pages/contacto.html">
-        <button>¡Cotiza ya!</button>
+        <button class="animate__animated animate__pulse">¡Cotiza ya!</button>
       </form>
   </main>
 
-  <section id="somos-rya">
+  <section id="somos-rya" data-aos="zoom-in-up">
       <div class="container">
 
               <div class="img-container"></div>
@@ -70,7 +74,7 @@
           
 
           <h2>Nuestros servicios</h2>
-          <div class="servicios">
+          <div class="servicios" data-aos="zoom-out-down">
 
               <div class="carta">
                   <h3>Grúa sin operador</h3>
@@ -92,7 +96,7 @@
   </section>
 
   <section id="caracteristicas">
-      <div class="container">
+      <div class="container" data-aos="zoom-out-down">
 
           <ul>
               <li>Diveridad en tonelaje</li>
@@ -103,7 +107,8 @@
       </div>  
       </section>
 
-  <section id="contacta-ya">
+  <section id="contacta-ya" data-aos="fade-up"
+  data-aos-anchor-placement="top-center">
       <h2>¿Listo para solicitar tu servicio?</h2>
       <form action="./Pages/contacto.html">
         <button> ¡Cotiza ya!</button>
@@ -142,6 +147,8 @@
     </footer>
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
-    
+<script>
+  AOS.init();
+</script>   
 </body>
 </html>

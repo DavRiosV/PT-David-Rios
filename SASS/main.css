@@ -5,8 +5,9 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "roboto", sans-serif;
+  font-family: "roboto", sans-serif;                                              
 }
+
 
 html{
   scroll-behavior: smooth;
@@ -71,13 +72,21 @@ html{
   font-size: 15px;
 }
 
-@media screen and (max-width: 800px) {
-  .pie-pagina .grupo-1 {
-    width: 90%;
-    grid-template-columns: repeat(1, 1fr);
-    grid-gap: 30px;
-    padding: 35px 0px;
+@media screen and (max-width: 700px) {
+  .pie-pagina{
+    overflow: hidden;
   }
+  .pie-pagina .grupo-1 {
+    width: 100%;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 35px 0px;
+    overflow: hidden;
+  }
+  .pie-pagina .grupo-1 h2,
+  p{
+    padding-left: 25px;
+  }
+
 }/*# sourceMappingURL=main.css.map */
 
 /*Globales*/   
@@ -90,11 +99,7 @@ html{
 
 
 /*Home*/
-body{
-  font-family: 'Roboto', sans-serif;
-  margin: 0;
 
-}
 h1{ font-size: 3.5em;}
 h2{ font-size: 2.7em;}
 h3{ font-size: 2em;}
@@ -231,7 +236,7 @@ button:hover{
   text-align: center;
   background-color: rgb(30,30,30);
   color: white;
-  height: 80vh;
+  height: 300px;
 }
 #contacta-ya h2{
   font-size: 9vw;
@@ -248,22 +253,13 @@ button:hover{
 
 @media (min-width: 600px){
 @media (min-width: 850px){
-  header{
-      position: fixed;
-      width: 100%;
-      z-index: 2;
+
+  #hero {
+    overflow: hidden;
   }
-  header .container{
-      flex-direction: row;
-      justify-content: space-between;
-  }
-  header nav{
-      flex-direction: row;
-      padding-bottom: 0;
-      padding-right: 20px;
-  }
+
   #hero h1{
-      font-size: 5em;
+      font-size: 4em;
   }
   #somos-rya .container{
       display: flex;
@@ -365,67 +361,111 @@ button:hover{
 
 /*main contacto*/
 
+.btn__register-contacto{
+    padding: 14px 50px;
+    border: none;
+    background: #000;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background, color, 300ms;
+}
+
+.btn__header-contacto:hover,
+.btn__register-contacto:hover{
+    background-color: #f8ba07;
+    color: #000;
+}
+
 #main-contacto {
-  background: linear-gradient(25deg, #fac116 70%, #f5db2f 20%);
+  height: calc(100vh + 150px);
+  padding: 40px;
+  margin: auto;
+  background-color: whitesmoke;
+
 }
 
-#main-contacto .main__text {
-  color: #eeeeee;
-  padding: 1rem;
+#main-contacto .contacto{
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
-  width: 100%;
-  height: 80vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../Imagenesgrua/glaciar.JPG');                                                                            
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: auto;   
+
 }
 
-#main-contacto .main__text input:hover {
-  background-color: #ffbf00;
-  color: #eeeeee;
-  transform: scale(0.9);
-  transition: all 1s;
+.text__information-contacto{
+  width: 50%;
 }
 
-.col-sm-6 {
-display: flex;
-flex-direction: column;
-align-content: center;
-background-position: center center;
+.text__information-contacto h1{
+  font-size: 50px bold;
+}
+.text__information-contacto p{
+  font-size: 18px;
+  margin-top: 50px;
 }
 
-.col-sm-6 .accordion-button:hover {
-    background-color: #efc33f8e;
+.buttons__contacto{
+  display: flex;
+  margin-top: 40px;    
 }
 
-.col-sm-6 .accordion-button:not(.collapsed){
-    background-color: #9f9f9751;
+.btn__readmore-contacto{
+  padding: 14px 40px;
+  border: none;
+  color: #000;
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: background 300ms;
+}
+.btn__readmore-contacto:hover{
+  background: #e8e8e8;
 }
 
-.col-sm-6 .accordion-button:not(.collapsed)::after {
-  filter: brightness(0%) invert(70%);
+.img__contacto{
+
+  padding-top: 40px;
 }
 
-.col-sm-6 .accordion-button:focus{
-  box-shadow: inherit;
+
+@media (max-width: 1024px){
+  #main-contacto {
+      padding: 20px;
+  }
+
+  .text__information-contacto h1 {
+      font-size: 40px;
+  }
+  .text__information-contacto p{
+      font-size: 16px;
+  }
+
 }
 
-.col-sm-6 h2 {
-  font-size: xx-large;
+@media (max-width: 700px){
+  .text__information-contacto{
+      width: 100%;
+  }
+  #main-contacto .img__contacto{
+      display: none;
+
+  }
+  .btn__readmore-contacto:hover{
+    padding: 14px 40px;
+    border: none;
+    color: #000;
+    font-weight: 300;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: background 300ms;
+  }
+  .btn__readmore-contacto:hover{
+    background: #e8e8e8;
+  }
 }
 
-.col-sm-6 h4 {
-  padding-top: 1fr;
-  font-size: x-large;
-}
-
-.col-sm-6 p {
-  padding-top: 1fr;
-}
 
 /*formulario*/
 
@@ -577,7 +617,7 @@ background-position: center center;
   box-sizing: content-box;
 }
 
-#main__maquinaria #main__text{
+#main__maquinaria .main__text{
   padding-top: 150px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Imagenesgrua/10redimensionada.jpg"); 
 }
@@ -648,7 +688,7 @@ background-position: center center;
 
 @media (max-width: 650px) {
 
- #main__maquinaria #main__text .col-md-8{
+ #main__maquinaria .main__text .col-md-8{
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Imagenesgrua/10redimensionada.jpg"); 
 
  
@@ -758,7 +798,7 @@ background-position: center center;
   width: 350px;
   overflow: hidden;
   border-radius: 6px;
-  box-shadow: 0px 15px 25px rgba (0,0,0,0.50) ;
+  box-shadow: 0px 15px 25px rgba(0,0,0,0.50) ;
   cursor: pointer;
 }
 

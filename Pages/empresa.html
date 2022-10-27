@@ -10,6 +10,9 @@
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/ab79506b94.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body>
 
@@ -44,7 +47,7 @@
       </nav>
   </header>    
     <main class="empresa">
-        <div class="cover">
+        <div class="cover" data-aos="zoom-in">
             <div class="text__information-cover">
                 <h1>Nuestra empresa</h1>
                 <p>R&A Grúas es una empresa dedicada al rubro del arriendo de maquinaría pesada, con más de 28 años de trayectoria. durante las casi tres decadas que existencia de nuestra empresa, nos hemos dedicado fielmente a cumplir con los requerimientos y expectativas de nuestra clientela, siempre brindando un trabajo de calidad, asegurando la seguridad de tu proyecto.</p>
@@ -63,7 +66,7 @@
             </div>
         </div>
 
-        <div class="container__banner">
+        <div class="container__banner" data-aos="fade-up" data-aos-duration="3000">
             <div class="banner">
                 <div class="banner__icon-fork">
                     <img src="../IMG-RED/animation.gif" id="icon_fork" alt="">
@@ -79,37 +82,38 @@
     </main>
 
     <footer class="pie-pagina">
-        <div class="grupo-1">
-            <div class="box">
-                <figure>
-                    <a href="#">
-                        <img src="../Imagenesgrua/Logo_PNG.png" alt="Logo-RYA">
-                    </a>
-                </figure>
-            </div>
-            <div class="box">
-                <h2>CONTÁCTANOS</h2>
-                    <p>+56 (2) 25533705</p>
-                    <p>+56 (9) 95342620 </p>
-            </div>
-            <div class="box">
-                <h2>SIGUENOS</h2>
-                <div class="red-social">
-                    <a href="#" class="fa fa-facebook"></a>
-                    <a href="#" class="fa fa-instagram"></a>
-                    <a href="#" class="fa fa-twitter"></a>
-                    <a href="#" class="fa fa-linkedin"></a>
-                </div>
-            </div>
-        </div>
-    
-        <div class="grupo-2">
-            <small>&copy; 2022 <b>R&A Grúas Ltda</b> - Todos los derechos reservados</small>
-        </div>
-    
-    </footer>
+      <div class="grupo-1">
+          <div class="box">
+              <figure>
+                  <a href="../index.html">
+                      <img src="../Imagenesgrua/Logo_PNG.png" alt="Logo-RYA">
+                  </a>
+              </figure>
+          </div>
+          <div class="box">
+              <h2>CONTÁCTANOS</h2>
+                  <p>+56 (2) 25533705</p>
+                  <p>+56 (9) 95342620 </p>
+          </div>
+          <div class="box">
+              <h2>SIGUENOS</h2>
+              <div class="red-social">
+                  <a href="https://m.facebook.com/login/?locale=es_ES" class="fa fa-facebook"></a>
+                  <a href="https://www.instagram.com/accounts/login/" class="fa fa-instagram"></a>
+                  <a href="https://twitter.com/i/flow/login" class="fa fa-twitter"></a>
+                  <a href="https://www.linkedin.com/login/es" class="fa fa-linkedin"></a>
+              </div>
+          </div>
+      </div>
+  
+      <div class="grupo-2">
+          <small>&copy; 2022 <b>R&A Grúas Ltda</b> - Todos los derechos reservados</small>
+      </div>
+  
+  </footer>
     <!-- JavaScript Bundle with Popper -->
     <script>src ="./script.js"</script>
     <script src = "https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <script>AOS.init();</script>  
 </body>
 </html>

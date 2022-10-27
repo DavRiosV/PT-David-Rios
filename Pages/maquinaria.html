@@ -8,13 +8,13 @@
     <meta name="description" content="Arriendo de grúa horquilla con y sin operador, transporte de maquinaria por carretera. ¡Trabaja junto a nosotros y deja tus proyectos en nuestras manos!">
     <meta name="keywords" content="Grúas, horquilla,3 ton, 5 ton, 7 ton">
     <link rel="stylesheet" href="../SASS/main.css">
+    <link rel="shortcut icon" href="../Imagenesgrua/Logo_PNG.png" type="image/x-icon">
   <!-- CSS only -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
   <script src="https://kit.fontawesome.com/ab79506b94.js" crossorigin="anonymous"></script>
-  <link rel="shortcut icon" href="../Imagenesgrua/Logo_PNG.png" type="image/x-icon">
-  <style>
-  
-  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body>
 
@@ -49,7 +49,10 @@
   </header>
 
   <main id="main__maquinaria">         
-              <div class="col-md-12">
+              <div class="col-md-12" data-aos="fade-left"
+              data-aos-anchor="#example-anchor"
+              data-aos-offset="500"
+              data-aos-duration="500">
                   <div class="row ">
                   
                       
@@ -81,7 +84,7 @@
    </main>
 
      <section class="titulo">
-              <div class="col-sm-12">
+              <div class="col-sm-12" data-aos="fade-right">
                 <div class="col-sm-12">
                     <div class="titulo-section">
                       <h2>Nuestros equipos de trabajo</h2>
@@ -97,11 +100,11 @@
                 
                 <div class="row col-md-12">
                   
-                  <div class="col-md-6">
-                    <img src="../Imagenesgrua/1666749050619big.jpg" alt="#" class="thumbnail img-responsive" style="width: 100%;">                   
+                  <div class="col-md-6" data-aos="zoom-in-up">
+                    <img src="../Imagenesgrua/1666749050619big.jpg" alt="consulta" class="thumbnail img-responsive" style="width: 100%;">                   
                   </div>   
                   
-                  <div class="col-md-6">           
+                  <div class="col-md-6" data-aos="fade-up" data-aos-duration="3000">           
                     <div class="main__texto">            
                       <strong><H1>¿No sabes que tonelaje necesitas?</H1></strong>
                       <!-- Dejar un espacio   -->
@@ -115,7 +118,9 @@
       </section>
       
     <section id="gruas">
-                  <div class="container text-center">
+                  <div class="container text-center" data-aos="fade-right"
+                  data-aos-offset="300"
+                  data-aos-easing="ease-in-sine">
                       <div class="row col-sm-12">
                               <div class="col-sm-4">
                                 <figure>
@@ -177,7 +182,7 @@
         <div class="grupo-1">
             <div class="box">
                 <figure>
-                    <a href="#">
+                    <a href="../index.html">
                         <img src="../Imagenesgrua/Logo_PNG.png" alt="Logo-RYA">
                     </a>
                 </figure>
@@ -190,10 +195,10 @@
             <div class="box">
                 <h2>SIGUENOS</h2>
                 <div class="red-social">
-                    <a href="#" class="fa fa-facebook"></a>
-                    <a href="#" class="fa fa-instagram"></a>
-                    <a href="#" class="fa fa-twitter"></a>
-                    <a href="#" class="fa fa-linkedin"></a>
+                    <a href="https://m.facebook.com/login/?locale=es_ES" class="fa fa-facebook"></a>
+                    <a href="https://www.instagram.com/accounts/login/" class="fa fa-instagram"></a>
+                    <a href="https://twitter.com/i/flow/login" class="fa fa-twitter"></a>
+                    <a href="https://www.linkedin.com/login/es" class="fa fa-linkedin"></a>
                 </div>
             </div>
         </div>
@@ -205,5 +210,6 @@
     </footer>
   <!-- JavaScript Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>  
+  <script>AOS.init();</script>  
 </body>
 </html>

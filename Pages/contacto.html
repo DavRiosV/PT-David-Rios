@@ -47,61 +47,67 @@
     
     </header>
 
-    <main id="main-contacto">
+    <main class="main-contacto">
         <div class="contacto" data-aos="zoom-in">
             <div class="text__information-contacto">
                 <h1>R&A Grúas, más de 28 años de experiencia</h1>
                 <p>Servicio y experiencia a su disposición.</p>
-                <div class="buttons__contacto">
+                <div class="buttons__cover">
                   <form action="https://youtu.be/4qdpSY8yFgw">
-                    <button class="btn__register-contacto">Sobre nosotros</button>
+                    <button class="btn__register-cover">Conoce más</button>
                   </form>
-                  <form action="#contactForm">
-                     <button class="btn__readmore-contacto">¡Cotiza!</button>
+                  <form action="./contacto.html">
+                    <button class="btn__readmore-cover">¡Cotiza!</button>
                   </form>
                 </div>
             </div>
 
-            <div class="img__contacto">
-                <img src="../Imagenesgrua/gruaenlacallerec.jpg" alt="grua">
+            <div class="media__cover">
+                <img src="../Imagenesgrua/gruaenlacallerec.jpg" alt="">
             </div>
         </div>
 
-    </main>
+        <section class="col-lg-12" id="contact-titulo">
+            <div class="container">
+                <div class="row">
+                    <div class="row-lg-12 justify-content-start">
+                        <div class="col-lg-12 text-center">
+                            <h2 class="mt-0">Contáctate con nosotros</h2>
+                        </div>
+                        <div class="col-lg-12 text-center">
+                            <hr class="divider" />
+                            <p class="text-muted mb-5">Cualquier duda e inquietud que tengas sobre nuestros servicios la resolveremos lo más rápido que podamos.</p>
+                        </div>    
+                    </div>
+                </div>    
+            </div>
+        </section>            
     
     <section class="col-lg-12" id="contact">
      
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
-                    <div class="row-lg-12 justify-content-start">
-                        <div class="col-lg-12 col-xl-12 text-center">
-                            <h2 class="mt-0">Contáctate con nosotros</h2>
-                            <hr class="divider" />
-                            <p class="text-muted mb-5">Cualquier duda e inquietud que tengas sobre nuestros servicios la resolveremos lo más rápido que podamos.</p>
-                        </div>
-                    </div>
+
                     <div class="col-lg-12">
-                        <form id="contactForm" data-sb-form-api-token="API_TOKEN"></form>
+                        <form id="contactForm"   action="form.php" method="POST"></form>
                             <div class="form-floating mb-3">
-                                <input class="form-control" id="name" type="text" placeholder="Ingresa tú nombre" data-sb-validations="required" />
+                                <input class="form-control" id="name" type="text" name="name" placeholder="Ingresa tú nombre"/>
                                 <label for="name">Nombre completo</label>
-                                <div class="invalid-feedback" data-sb-feedback="name:required">Se requiere nombre.</div>
+                                <div class="invalid-feedback">Se requiere nombre.</div>
                             </div>
                             <div class="form-floating mb-3">
-                                <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
+                                <input class="form-control" name="email" id="email" type="email" placeholder="david.r.v@hotmail.com" />
                                 <label for="email">Email</label>
-                                <div class="invalid-feedback" data-sb-feedback="email:required">Se requiere un correo electrónico.</div>
-                                <div class="invalid-feedback" data-sb-feedback="email:email">Email no valido</div>
                             </div>
                             <div class="form-floating mb-3">
-                                <input class="form-control" id="phone" type="phone" placeholder="Ingresa tú número de contacto" data-sb-validations="required" />
+                                <input class="form-control" name="phone" id="phone" type="phone" placeholder="Ingresa tú número de contacto"/>
                                 <label for="number">Número de teléfono</label>
-                                <div class="invalid-feedback" data-sb-feedback="number:required">Se requiere número de contacto.</div>
+                                <div class="invalid-feedback">Se requiere número de contacto.</div>
                             </div>
                             <div class="box1">
-                                <label for="Servicios row gx-4 gx-lg-5 justify-content-start"><strong> Tipo de servicio</strong></label>
-                                <select name="" id=""> 
+                                <label name="selecciona" for="Servicios row gx-4 gx-lg-5 justify-content-start"><strong> Tipo de servicio</strong></label>
+                                <select  id="selec"> 
                                     <option value="1">Selecciona</option>
                                     <option value="2">Grúa de 3 toneladas</option>
                                     <option value="3">Grúa de 4 toneladas</option>
@@ -116,20 +122,12 @@
                             </div>
 
                             <div class="form-floating mb-3">
-                                <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
+                                <textarea class="form-control" name="textarea" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem"></textarea>
                                 <label for="message">Mensaje</label>
-                                <div class="invalid-feedback" data-sb-feedback="message:required">Por favor escriba su consulta.</div>
+                                <div class="invalid-feedback">Por favor escriba su consulta.</div>
                             </div>
 
-                            <div class="d-none" id="submitSuccessMessage">
-                                <div class="text-center mb-3">
-                                    <div class="fw-bolder"> ¡Cotización enviada con éxito! nos pondremos en contacto lo más pronto posible.</div>
-                                    <br />
-                                </div>
-                            </div>
-                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error al enviar la cotización. Por favor intentelo de nuevo más tarde.</div></div>
-
-                            <div class="d-grid"><button class="btn btn-xl disabled" id="submitButton" type="submit">Enviar</button></div>
+                            <div class="d-grid"><button class="btn btn-xl disabled" id="submitButton">Enviar</button></div>
                         </form>
                         
                     </div>

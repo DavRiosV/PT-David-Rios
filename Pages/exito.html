@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../SASS/main.css">
+    <title>Mensaje enviado</title>
+</head>
+<body>
+    <main class="exito">
+        <div class="mensaje-enviado" data-aos="zoom-in">
+            <div class="text__information-mensaje">
+                <h1>¡Tu mensaje ha sido enviado con éxito!</h1>
+            </div>   
+            
+            <div class="media__mensaje">
+               <a href="../index.html"><video src="../Imagenesgrua/exito.mp4" autoplay playinline loop muted preload="auto"></video></a>
+            </div>
+        </div>   
+    </main>
+
+    <script>
+        setTimeout(function (){
+            window.location.replace("../index.html");
+        }, 4000);
+    </script>
+</body>
+</html>

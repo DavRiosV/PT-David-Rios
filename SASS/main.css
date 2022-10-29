@@ -363,112 +363,6 @@ button:hover{
 
 /*main contacto*/
 
-.btn__register-contacto{
-    padding: 14px 50px;
-    border: none;
-    background: #000;
-    color: white;
-    font-weight: 500;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background, color, 300ms;
-}
-
-.btn__header-contacto:hover,
-.btn__register-contacto:hover{
-    background-color: #f8ba07;
-    color: #000;
-}
-
-#main-contacto {
-  height: calc(100vh + 150px);
-  padding: 40px;
-  margin: auto;
-  background-color: whitesmoke;
-
-}
-
-#main-contacto .contacto{
-  display: flex;
-  justify-content: center;
-
-}
-
-.text__information-contacto{
-  width: 50%;
-}
-
-.text__information-contacto h1{
-  font-size: 50px bold;
-}
-.text__information-contacto p{
-  font-size: 18px;
-  margin-top: 50px;
-}
-
-.buttons__contacto{
-  display: flex;
-  margin-top: 40px;    
-}
-
-.btn__readmore-contacto{
-  padding: 14px 40px;
-  border: none;
-  color: #000;
-  font-weight: 500;
-  font-size: 16px;
-  cursor: pointer;
-  margin-left: 10px;
-  transition: background 300ms;
-}
-.btn__readmore-contacto:hover{
-  background: #e8e8e8;
-}
-
-.img__contacto{
-
-  padding-top: 40px;
-}
-
-
-@media (max-width: 1024px){
-  #main-contacto {
-      padding: 20px;
-  }
-
-  .text__information-contacto h1 {
-      font-size: 40px;
-  }
-  .text__information-contacto p{
-      font-size: 16px;
-  }
-
-}
-
-@media (max-width: 700px){
-  .text__information-contacto{
-      width: 100%;
-  }
-  #main-contacto .img__contacto{
-      display: none;
-
-  }
-  .btn__readmore-contacto:hover{
-    padding: 14px 40px;
-    border: none;
-    color: #000;
-    font-weight: 300;
-    font-size: 16px;
-    cursor: pointer;
-    margin-left: 10px;
-    transition: background 300ms;
-  }
-  .btn__readmore-contacto:hover{
-    background: #e8e8e8;
-  }
-}
-
-
 /*formulario*/
 
 #contact-titulo {
@@ -482,10 +376,14 @@ button:hover{
   padding-top: 2rem;
 }
 
-@media (min-width:700px){
+#contact-titulo .col-lg-12 .text-center{
+  padding-top: 25px;
+}
+
+@media (min-width:600px){
   #contact-titulo {
     background-color: rgb(220, 217, 217);
-    height: 300px;
+    height: 400px;
   }
   
   #contact-titulo .col-lg-12 {
@@ -510,6 +408,12 @@ button:hover{
   gap: 1rem;
   align-content: space-around;
   align-items: flex-end;
+}
+
+#contact{
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: rgb(220, 217, 217);
 }
 
 #contact .d-grid {
@@ -538,10 +442,14 @@ button:hover{
   background-color: #272828; 
   color: rgb(239, 239, 239);
   font-family: "roboto";
+  display: flex;
+  justify-content: space-evenly;
+
   text-align: center;
   line-height: 1.2;
-  height: 2.5rem;
+  height: 80px;
   border: none;
+  padding: 15px;
  
 }
 
@@ -595,10 +503,6 @@ button:hover{
 }
 
 /*main maquinaria*/
-#main__maquinaria .col-md-12{
-
-}
-
 
 #main__maquinaria .col-md-8 {
   background-color: #222831;
@@ -927,6 +831,8 @@ button:hover{
     background-color: #f8ba07;
     color: #000;
 }
+
+
 
 .empresa {
   max-width: 1200px;
@@ -1559,4 +1465,5 @@ button:hover{
     }
   
 }
+
 /*fin del footer*/ 

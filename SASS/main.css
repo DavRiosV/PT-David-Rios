@@ -87,7 +87,12 @@ html{
 
 /*Home*/
 
-
+h1{ font-size: 3.5em;}
+h2{ font-size: 2.7em;}
+h3{ font-size: 2em;}
+p{ font-size: 1.25em;}
+ul{ list-style: none;}
+li{ font-size: 1.25em;}
 button{
   font-size: 1.25em;
   font-weight: bold;
@@ -99,9 +104,12 @@ button{
   background-color: #f8ba07;
 }
 button:hover{
-  background-color: #cfab3f;
+  background-color: #dea806;
 }
-
+.container{
+  max-width: 1200px;
+  margin: auto;
+}
 .color-acento{ color:#f8ba07; }
 
 #hero{
@@ -110,7 +118,7 @@ button:hover{
   justify-content: center;
   text-align: center;
   flex-direction: column;
-  height: 100%;
+  height: 90vh;
   background-image: linear-gradient(
       0deg,
       rgba(0,0,0,0.5),
@@ -120,8 +128,6 @@ button:hover{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  max-width: 1200px;
-
 }
 #hero h1{
   color: white;
@@ -141,18 +147,18 @@ button:hover{
   padding: 200px 12px;
 }
 
-
 #nuestros-servicios{
   background-color: rgb(30,30,30);
   color: white;
   text-align: center;
   box-sizing: border-box;
-
 }
-
+#nuestros-servicios .container{
+  padding: 150px 12px;
+}
 #nuestros-servicios h2{
   margin-top: 0;
-  font-size: 2.2em;
+  font-size: 3.2em;
 }
 #nuestros-servicios p{
   display: none;
@@ -161,8 +167,8 @@ button:hover{
   background-position: center center;
   background-size: cover;
   padding: 50px 0px;
-  margin: 10px;
-  border-radius: 30px;
+  margin: 30px;
+  border-radius: 15px;
 }
 .carta:first-child{
   background-image: linear-gradient(
@@ -217,7 +223,23 @@ button:hover{
   color: #393E46;
 }
 
+@media (max-width: 650px){
+  #caracteristicas .img-container{
+    display: none;
+  }
+  #caracteristicas h3 {
+    display: flex;
+    justify-content: center;
+  }
+  #caracteristicas li {
+    display: flex;
+    justify-content: center;
+  }
 
+  #caracteristicas li:hover{
+    color: #121214;
+  }
+}
 
 #contacta-ya{
   display: flex;
@@ -348,21 +370,22 @@ text-decoration: none;
 
 /*main maquinaria*/
 
-#main__maquinaria {
-  box-sizing: border-box;
+#main__maquinaria .col-md-8 {
+  background-color: #222831;
+
 }
 
 #main__maquinaria .col-md-4 {
   background-image: linear-gradient(190deg, #ffe649 0, #ffd42f 25%, #ffbf00 50%, #f4aa00 75%, #ea9800 100%);
   overflow: hidden;
   color: #eeeeee;
-  padding-top: 2rem;
+  padding-top: 5rem;
 }
 
 
 #main__maquinaria .col-md-12 {
   color: #eeeeee;
-  padding-top: 10px;
+  padding-top: 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -431,7 +454,7 @@ text-decoration: none;
   display: flex;
   align-items: center;
   align-content: center;
-  padding-top: 50px;
+  padding-top: 150px;
   padding-left: 27%;
   color: white;
   font-weight: 700;
@@ -968,6 +991,7 @@ text-decoration: none;
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center center;
+
     }
   
     #hero h1{
@@ -999,18 +1023,18 @@ text-decoration: none;
   
     #nuestros-servicios .servicios{
         display: flex;
-        justify-content: space-evenly;
+        justify-content: center;
     }
     #nuestros-servicios p{
         display: block;
         margin-bottom: 30px;
-        margin-top: 55px;
+        margin-top: 40px;
     }
     #nuestros-servicios h2{
         font-size: 4em;
     }
     #nuestros-servicios h3{
-        margin-top: -40px;
+        margin-top: -60px;
     }
     #nuestros-servicios .carta{
         padding: 100px;
@@ -1074,29 +1098,7 @@ text-decoration: none;
     }
   
   }
-
-  
 }
-
-@media (max-width: 650px){
-  #caracteristicas .img-container{
-    display: none;
-  }
-  #caracteristicas h3 {
-    display: flex;
-    justify-content: center;
-  }
-  #caracteristicas li {
-    display: flex;
-    justify-content: center;
-  }
-
-  #caracteristicas li:hover{
-    color: #121214;
-  }
-
-  }
-
 
 
 /*media footer*/
@@ -1185,15 +1187,13 @@ text-decoration: none;
   #main__maquinaria .main__text .col-md-8{
    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Imagenesgrua/10redimensionada.jpg"); 
   }
-  #main__maquinaria .col-md-4 {
-    box-sizing: border-box;
-  }
    }
 
    @media (max-width:620px){
     #gruas .container{
       padding-top: 10px;
       padding-bottom: 50px;
+      padding: 30px;
       height: max-content;
     }
     
@@ -1281,22 +1281,18 @@ text-decoration: none;
         align-items: center;
         align-content: center;
         align-self: flex-start;
-        padding-left: 30px;
+        padding-left: 40px;
       }
       
       .img .main__texto p {
         color: white;
         font-size: medium;
+        font-family: "roboto";
         display: flex;
         align-items: center;
         align-content: center;
         justify-content: center;
         padding-left: 10px;
-      }
-      
-
-      .img img {
-        display: none;
       }
     
       .titulo .titulo-section{
@@ -1314,6 +1310,7 @@ text-decoration: none;
 /*media empresa*/
 
 @media (max-width: 1024px){
+  .container__header,
   .empresa {
       padding: 20px;
 

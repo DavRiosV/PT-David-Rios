@@ -348,22 +348,21 @@ text-decoration: none;
 
 /*main maquinaria*/
 
-#main__maquinaria .col-md-8 {
-  background-color: #222831;
-
+#main__maquinaria {
+  box-sizing: border-box;
 }
 
 #main__maquinaria .col-md-4 {
   background-image: linear-gradient(190deg, #ffe649 0, #ffd42f 25%, #ffbf00 50%, #f4aa00 75%, #ea9800 100%);
   overflow: hidden;
   color: #eeeeee;
-  padding-top: 5rem;
+  padding-top: 2rem;
 }
 
 
 #main__maquinaria .col-md-12 {
   color: #eeeeee;
-  padding-top: 100px;
+  padding-top: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -432,7 +431,7 @@ text-decoration: none;
   display: flex;
   align-items: center;
   align-content: center;
-  padding-top: 150px;
+  padding-top: 50px;
   padding-left: 27%;
   color: white;
   font-weight: 700;
@@ -1178,8 +1177,16 @@ text-decoration: none;
 /*media maquinaria*/
 @media (max-width: 620px) {
 
+  #main__maquinaria {
+    box-sizing: border-box;
+    max-width: 350px;
+  }
+
   #main__maquinaria .main__text .col-md-8{
    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Imagenesgrua/10redimensionada.jpg"); 
+  }
+  #main__maquinaria .col-md-4 {
+    box-sizing: border-box;
   }
    }
 
@@ -1274,18 +1281,22 @@ text-decoration: none;
         align-items: center;
         align-content: center;
         align-self: flex-start;
-        padding-left: 40px;
+        padding-left: 30px;
       }
       
       .img .main__texto p {
         color: white;
         font-size: medium;
-        font-family: "roboto";
         display: flex;
         align-items: center;
         align-content: center;
         justify-content: center;
         padding-left: 10px;
+      }
+      
+
+      .img img {
+        display: none;
       }
     
       .titulo .titulo-section{

@@ -87,12 +87,7 @@ html{
 
 /*Home*/
 
-h1{ font-size: 3.5em;}
-h2{ font-size: 2.7em;}
-h3{ font-size: 2em;}
-p{ font-size: 1.25em;}
-ul{ list-style: none;}
-li{ font-size: 1.25em;}
+
 button{
   font-size: 1.25em;
   font-weight: bold;
@@ -104,12 +99,9 @@ button{
   background-color: #f8ba07;
 }
 button:hover{
-  background-color: #dea806;
+  background-color: #cfab3f;
 }
-.container{
-  max-width: 1200px;
-  margin: auto;
-}
+
 .color-acento{ color:#f8ba07; }
 
 #hero{
@@ -118,7 +110,7 @@ button:hover{
   justify-content: center;
   text-align: center;
   flex-direction: column;
-  height: 90vh;
+  height: 100%;
   background-image: linear-gradient(
       0deg,
       rgba(0,0,0,0.5),
@@ -128,6 +120,8 @@ button:hover{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+  max-width: 1200px;
+
 }
 #hero h1{
   color: white;
@@ -147,18 +141,18 @@ button:hover{
   padding: 200px 12px;
 }
 
+
 #nuestros-servicios{
   background-color: rgb(30,30,30);
   color: white;
   text-align: center;
   box-sizing: border-box;
+
 }
-#nuestros-servicios .container{
-  padding: 150px 12px;
-}
+
 #nuestros-servicios h2{
   margin-top: 0;
-  font-size: 3.2em;
+  font-size: 2.2em;
 }
 #nuestros-servicios p{
   display: none;
@@ -167,8 +161,8 @@ button:hover{
   background-position: center center;
   background-size: cover;
   padding: 50px 0px;
-  margin: 30px;
-  border-radius: 15px;
+  margin: 10px;
+  border-radius: 30px;
 }
 .carta:first-child{
   background-image: linear-gradient(
@@ -223,23 +217,7 @@ button:hover{
   color: #393E46;
 }
 
-@media (max-width: 650px){
-  #caracteristicas .img-container{
-    display: none;
-  }
-  #caracteristicas h3 {
-    display: flex;
-    justify-content: center;
-  }
-  #caracteristicas li {
-    display: flex;
-    justify-content: center;
-  }
 
-  #caracteristicas li:hover{
-    color: #121214;
-  }
-}
 
 #contacta-ya{
   display: flex;
@@ -1022,18 +1000,18 @@ text-decoration: none;
   
     #nuestros-servicios .servicios{
         display: flex;
-        justify-content: center;
+        justify-content: space-evenly;
     }
     #nuestros-servicios p{
         display: block;
         margin-bottom: 30px;
-        margin-top: 40px;
+        margin-top: 55px;
     }
     #nuestros-servicios h2{
         font-size: 4em;
     }
     #nuestros-servicios h3{
-        margin-top: -60px;
+        margin-top: -40px;
     }
     #nuestros-servicios .carta{
         padding: 100px;
@@ -1097,7 +1075,29 @@ text-decoration: none;
     }
   
   }
+
+  
 }
+
+@media (max-width: 650px){
+  #caracteristicas .img-container{
+    display: none;
+  }
+  #caracteristicas h3 {
+    display: flex;
+    justify-content: center;
+  }
+  #caracteristicas li {
+    display: flex;
+    justify-content: center;
+  }
+
+  #caracteristicas li:hover{
+    color: #121214;
+  }
+
+  }
+
 
 
 /*media footer*/
@@ -1187,7 +1187,6 @@ text-decoration: none;
     #gruas .container{
       padding-top: 10px;
       padding-bottom: 50px;
-      padding: 30px;
       height: max-content;
     }
     
@@ -1304,7 +1303,6 @@ text-decoration: none;
 /*media empresa*/
 
 @media (max-width: 1024px){
-  .container__header,
   .empresa {
       padding: 20px;
 

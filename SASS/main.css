@@ -1547,4 +1547,16 @@ button:hover {
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: space-around;
   align-items: stretch;
+}
+
+@media (max-width: 650px) {
+  .content .imgFigure {
+    display: grid;
+    grid-template-columns: auto;
+    justify-items: stretch;
+  }
+  .content .imgFigure .img {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
 }/*# sourceMappingURL=main.css.map */

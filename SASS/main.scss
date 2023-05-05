@@ -1619,3 +1619,14 @@
     justify-content: space-around;
     align-items: stretch;
 }
+
+@media (max-width: 650px){
+  .content .imgFigure{
+    display: grid;
+    grid-template-columns: auto;
+    justify-items: stretch;
+  } 
+  .content .imgFigure .img{
+    width: fit-content;
+  }
+}

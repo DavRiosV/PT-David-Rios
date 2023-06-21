@@ -215,6 +215,7 @@ button:hover {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+  width: 100%;
 }
 
 #hero h1 {
@@ -244,18 +245,18 @@ button:hover {
   box-sizing: border-box;
 }
 
-#nuestros-servicios .container {
-  padding: 150px 12px;
-}
-
 #nuestros-servicios h2 {
-  margin-top: 0;
+  padding-top: 1rem;
 }
 
 #nuestros-servicios p {
   display: none;
   padding-top: 1rem;
   justify-self: center;
+}
+
+#nuestros-servicios .container {
+  margin: 0;
 }
 
 #nuestros-servicios .cartaInfo {
@@ -1048,7 +1049,7 @@ button:hover {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    width: 550px;
+    width: 100%;
   }
   #hero h1 {
     font-size: 4em;

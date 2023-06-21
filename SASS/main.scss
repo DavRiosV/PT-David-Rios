@@ -256,12 +256,7 @@
   #contacta-ya button{
     font-size: 5vw;
   }
-  
-  #contacta-ya button:hover{
-    background-color: #dea806;
-    border-radius: 14px;
-    transition: all 0.5s;
-  }
+
   
   
   /*main contacto*/
@@ -864,7 +859,7 @@
   .contenedor {
       max-width: 1200px;
       width: 90%;
-      margin: auto;
+      padding-left: 53px;
   }
   
   /* --- --- CONTENEDOR PRINCIPAL --- --- */
@@ -1114,9 +1109,9 @@
           font-size: 5em;
       }
       #contacta-ya button{
-          font-size: 2em;
+        font-size: 1.75em;
+        border-radius: 10px;
       }
-    
     }
   }
   
@@ -1608,6 +1603,7 @@
 .content {
     background-color: #f5f5f5;
     color: black;
+    padding-bottom: 3rem;
 }
 .content h1{
     color: white;
@@ -1627,6 +1623,14 @@
     justify-items: stretch;
   } 
   .content .imgFigure .img{
-    width: fit-content;
+    width: 100%;
+
+  }
+  #sectionInfo img{
+    width: 100%;
+
+  }
+  #glider{
+    width: 100%;
   }
 }

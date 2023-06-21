@@ -1,4 +1,4 @@
-const btnInfo = document.querySelector(".carta")
+const btnInfo = document.querySelector("button.cartaInfo")
 
 btnInfo.addEventListener('click', masInfo);
 function masInfo () {

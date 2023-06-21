@@ -157,10 +157,15 @@
   }
   #nuestros-servicios h2{
     margin-top: 0;
-    font-size: 3.2em;
+
   }
   #nuestros-servicios p{
     display: none;
+    padding-top: 1rem;
+    justify-self: center;
+  }
+  #nuestros-servicios .cartaInfo{
+    border-radius: 10px;
   }
   #nuestros-servicios .carta{
     background-position: center center;
@@ -239,6 +244,15 @@
       color: #121214;
     }
   }
+
+  @media (max-width:1000px){
+    #caracteristicas img{
+      width: 300px;
+    }
+    #contacta-ya{
+      z-index: initial;
+    }
+  }
   
   #contacta-ya{
     display: flex;
@@ -280,7 +294,7 @@
   
   
   .col-lg-12 .box1 {
-   padding-bottom: 2rem;
+    padding-bottom: 2rem;
   }
   
   #selec:hover{
@@ -1006,7 +1020,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
-  
+        width: 550px;
       }
     
       #hero h1{
@@ -1042,8 +1056,8 @@
       }
       #nuestros-servicios p{
           display: block;
-          margin-bottom: 30px;
-          margin-top: 40px;
+          padding-bottom: 5rem;
+          padding-top: 5rem;
       }
       #nuestros-servicios h2{
           font-size: 4em;

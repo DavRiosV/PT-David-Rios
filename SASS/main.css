@@ -259,6 +259,10 @@ button:hover {
   border-radius: 10px;
 }
 
+#nuestros-servicios span {
+  visibility: hidden;
+}
+
 #nuestros-servicios .carta {
   background-position: center center;
   background-size: cover;

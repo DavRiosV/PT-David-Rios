@@ -270,6 +270,10 @@ button:hover {
   margin-right: 30px;
   margin-bottom: 30px;
   border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .carta:first-child {
@@ -1094,7 +1098,7 @@ button:hover {
     justify-content: center;
   }
   #nuestros-servicios p {
-    display: block;
+    display: flex;
     padding-bottom: 5rem;
     padding-top: 5rem;
   }

@@ -7,8 +7,6 @@
     font-family: "roboto", sans-serif; 
                                           
   }
-  
-  
   html{
     scroll-behavior: smooth;
   }
@@ -150,7 +148,8 @@
     background-color: rgb(30,30,30);
     color: white;
     text-align: center;
-    box-sizing: border-box;padding-bottom: 20px;
+    box-sizing: border-box;
+    padding-bottom: 20px;
   }
   #nuestros-servicios h2{
     padding-top: 1rem;

@@ -108,41 +108,7 @@
     margin: auto;
   }
   .color-acento{ color:#f8ba07; }
-  
-  #hero{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    height: 400px;
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    )
-    ,url("../IMG-RED/10.jpg");
-    background-repeat: no-repeat;
-    background-position: center center;
-    width:100%
-  }
-  #hero h1{
-    color: white;
-    font-weight: bold;
-  }
-  #hero h4{
-    color: white;
-    font-weight: bold;
-  }
-  
-  #hero button{
-    font-size: 1.75em;
-    border-radius: 10px;
-  }
-  #somos-rya .container{
-    text-align: center;
-    padding: 200px 12px;
-  }
+
   
   #nuestros-servicios{
     background-color: rgb(30,30,30);
@@ -253,27 +219,27 @@
     #caracteristicas img{
       width: 300px;
     }
-    #contacta-ya{
-      z-index: initial;
-    }
+  //   #contacta-ya{
+  //     z-index: initial;
+  //   }
   }
   
-  #contacta-ya{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-color: rgb(30,30,30);
-    color: white;
-    height: 300px;
-  }
-  #contacta-ya h2{
-    font-size: 9vw;
-  }
-  #contacta-ya button{
-    font-size: 5vw;
-  }
+  // #contacta-ya{
+  //   display: flex;
+  //   flex-direction: column;
+  //   justify-content: center;
+  //   align-items: center;
+  //   text-align: center;
+  //   background-color: rgb(30,30,30);
+  //   color: white;
+  //   height: 300px;
+  // }
+  // #contacta-ya h2{
+  //   font-size: 9vw;
+  // }
+  // #contacta-ya button{
+  //   font-size: 5vw;
+  // }
 
   
   
@@ -1005,54 +971,54 @@
   
   /* media index */
   
-  @media (min-width: 650px){
+
     @media (min-width: 850px){
     
-      #hero{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        flex-direction: column;
-        height: 400px;
-        background-image: linear-gradient(
-            0deg,
-            rgba(0,0,0,0.5),
-            rgba(0,0,0,0.5)
-        )
-        ,url("../IMG-RED/10.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
-        width: 100%;
-      }
+    //   #hero{
+    //     display: flex;
+    //     align-items: center;
+    //     justify-content: center;
+    //     text-align: center;
+    //     flex-direction: column;
+    //     height: 400px;
+    //     background-image: linear-gradient(
+    //         0deg,
+    //         rgba(0,0,0,0.5),
+    //         rgba(0,0,0,0.5)
+    //     )
+    //     ,url("../IMG-RED/10.jpg");
+    //     background-repeat: no-repeat;
+    //     background-size: cover;
+    //     background-position: center center;
+    //     width: 100%;
+    //   }
     
-      #hero h1{
-          font-size: 4em;
-      }
-      #somos-rya .container{
-          display: flex;
-          justify-content: space-evenly;
-      }
-      #somos-rya .texto{
-          width: 50%;
-          max-width: 600px;
-          text-align: initial;
-          padding-left: 30px;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-      }
-      #somos-rya h2{
-          margin-top: 0px;
-      }
-      #somos-rya .img-container{
-          background-image: url("../IMG-RED/gruaenlacalle.jpg");
-          background-size: cover;
-          background-position: center center;
-          height: 500px;
-          width: 590px; 
-      }
+    //   #hero h1{
+    //       font-size: 4em;
+    //   }
+    //   #somos-rya .container{
+    //       display: flex;
+    //       justify-content: space-evenly;
+    //   }
+    //   #somos-rya .texto{
+    //       width: 50%;
+    //       max-width: 600px;
+    //       text-align: initial;
+    //       padding-left: 30px;
+    //       display: flex;
+    //       flex-direction: column;
+    //       justify-content: center;
+    //   }
+    //   #somos-rya h2{
+    //       margin-top: 0px;
+    //   }
+    //   #somos-rya .img-container{
+    //       background-image: url("../IMG-RED/gruaenlacalle.jpg");
+    //       background-size: cover;
+    //       background-position: center center;
+    //       height: 500px;
+    //       width: 590px; 
+    //   }
       #nuestros-servicios{
         background-color: rgb(30, 30, 30);
         color: white;
@@ -1131,14 +1097,14 @@
       }
       
   
-      #contacta-ya h2{
-          font-size: 5em;
-      }
-      #contacta-ya button{
-        font-size: 1.75em;
-        border-radius: 10px;
-      }
-    }
+    //   #contacta-ya h2{
+    //       font-size: 5em;
+    //   }
+    //   #contacta-ya button{
+    //     font-size: 1.75em;
+    //     border-radius: 10px;
+    //   }
+    
   
   
   

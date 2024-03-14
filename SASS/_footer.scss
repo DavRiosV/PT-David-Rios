@@ -6,7 +6,7 @@
     font-family: "open Sans", sans-serif;
 }
 
-$colorPrincipal: #393E46;
+$colorPrincipal: #202020;
 $colorTitulo : #ffd369;
 
 .pie-pagina { 
@@ -47,7 +47,7 @@ $colorTitulo : #ffd369;
             transition: all 300ms ease;
 
             a:hover {
-                background-color: #393E46;
+                background-color: #353434;
             } 
         }
 
@@ -65,18 +65,16 @@ $colorTitulo : #ffd369;
     }
         
     .grupo-2 {
-         background-color: #222831;
-         padding: 15px 10px;
-         text-align: center;
-         color: white;
+        background-color: #202020;
+        padding: 15px 10px;
+        text-align: center;
+        color: white;
         }
         
         small {
             font-size: 15px;
         }
-          
 }
-   
 @media screen and (max-width:800px) {
         .pie-pagina .grupo-1 {
             width: 90%;

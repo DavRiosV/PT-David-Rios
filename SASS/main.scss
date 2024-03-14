@@ -14,7 +14,7 @@
   /*footer*/
   
   .pie-pagina {
-    background-color: #272c33;
+    background-color:whitesmoke;
   }
   .pie-pagina .grupo-1 {
     max-width: 1200px;
@@ -25,13 +25,15 @@
     padding: 45px 0px;
   }
   .pie-pagina .grupo-1 h2 {
-    color: #ffd369;
+    color: #d69600;
     margin-bottom: 25px;
     font-size: 20px;
+    font-weight: bolder;
   }
   .pie-pagina .grupo-1 p {
-    color: #efefef;
+    color: #d69600;
     margin-bottom: 10px;
+    font-weight: bolder;
   }
   .pie-pagina .grupo-1 .red-social a {
     display: inline-block;
@@ -407,11 +409,9 @@
     }
   
   .titulo {
-    background: #000000;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: rgb(30, 30, 30);
     width: inherit;
-    padding-top: 20px;
+    padding-top: 3rem ;
     border: transparent;   
     position: relative;
                                             
@@ -420,28 +420,28 @@
   
   .titulo .titulo-section {
     color: #efefef;
-    padding-left: 38%;
+    display: flex;
     padding-bottom: 1rem;
+    justify-content: center;
   }
   
-  .img {
-    background-color: #ffeab7;
-    background-image: linear-gradient(72deg, #ffeab7 0%, #ffbf00 100%);
+  #imgmaq {
+    background-color: whitesmoke;
+    text-align: justify;
   }
-  
-  .img .main__texto h1 {
+
+  #imgmaq .main__texto h1 {
     font-family: sans-serif;
     display: flex;
     align-items: center;
-    align-content: center;
     padding-top: 150px;
-    padding-left: 27%;
-    color: white;
+    padding-left: 17%;
+    color: black;
     font-weight: 700;
   }
   
-  .img .main__texto p {
-    color: white;
+  #imgmaq .main__texto p {
+    color: black;
     font-family: sans-serif;
     display: flex;
     align-items: center;
@@ -450,13 +450,13 @@
     padding-top: 50px;
     padding-left: 17%;
   }
-  
-  
-  
-  
+
   /*imagenes maquinaria*/
-  
-  
+
+  #gruas {
+    background: rgb(30, 30, 30);
+  }
+
   #gruas .container {
     box-sizing: border-box;
     width: 100%;
@@ -465,7 +465,6 @@
     justify-content: space-between;
     align-items: center;
     overflow: hidden;
-    background-color: rgb(330, 330, 330);
     
   }   
   
@@ -530,7 +529,7 @@
   
   #gruas .container figure .capa h3 {
     color: #fff;
-    font-weight: 400px;
+    font-weight: bolder;
     margin-bottom: 120px;
     transition: all 500ms ease-out;
     margin-top: 20px;
@@ -539,6 +538,7 @@
   #gruas .container figure .capa p {
     color: #fff;
     font-size: 15px;
+    font-weight: bolder;
     line-height: 1.5;
     width: 100%;
     max-width: 220px;

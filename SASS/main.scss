@@ -1556,11 +1556,21 @@
         
     }
 }
+.swiffy-slider{
+  height: 800px;
+}
 .swiffy-slider .card-text1 {
   font-weight: bold;
   color: #000000;
   border-color: #aaa;
 
+}
+.swiffy-slider .card1 img{
+  height: 300px;
+  text-align:end;
+}
+.card1 .card-img-overlay{
+  bottom: 50%;
 }
 
 // .swiper1 {
